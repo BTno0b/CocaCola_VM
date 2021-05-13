@@ -374,7 +374,11 @@
       <nav id="footerColor" class="navbar navbar-expand-sm footer">
           <div class="container-fluid">   
               <div class="navbar-text float-left copyright">
-                  <p><span class="align-baseline">&copy 2021 3D Apps | <a href="javascript:changeLook()">Restyle</a> | <a href="javascript:changeBack()">Reset</a></span></p>
+                  <p>
+                    <span class="align-baseline">&copy 2021 3D Apps | <a href="javascript:changeLook()">Restyle</a> | <a href="javascript:changeBack()">Reset</a> | <a href="../application/assets/x3d/x3d.zip" download data-toggle="popover" data-trigger="hover" data-placement="top" title="Download 3D models with texture!" data-content="Click here to download all models and texture.">Download</a>
+
+                    </span>
+                  </p>
               </div>
               <div class="navbar-text float-right social">
                   <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
@@ -412,6 +416,7 @@
           </div>
       </div>
 
+      
       <!-- JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
       <script src="../application/js/jquery-3.2.1.js" crossorigin="anonymous"></script>
